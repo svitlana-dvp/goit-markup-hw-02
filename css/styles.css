@@ -57,8 +57,8 @@ a {
     color: #2e2f42;
 }
 
-.title-nav .link:hover, 
-.title-nav .link:focus {
+.title-nav > a:hover, 
+.title-nav > a:focus {
     color: #404bbf;
 }
 
@@ -144,9 +144,6 @@ button .link:focus {
     color: #2e2f42;
 }
 
-
-
-
 .footer-style {
     background-color: #2e2f42;
 }
@@ -157,7 +154,7 @@ button .link:focus {
     color: #f4f4fd;
 }
 
-span {
+.footer-logo {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
