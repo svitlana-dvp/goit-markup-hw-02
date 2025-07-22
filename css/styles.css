@@ -57,7 +57,7 @@ a {
     color: #2e2f42;
 }
 
-.title-nav .link:hover,
+.title-nav .link:hover, 
 .title-nav .link:focus {
     color: #404bbf;
 }
@@ -80,7 +80,7 @@ a {
     background-color: #2e2f42;
 }
 
-.pushit {
+button {
     background-color: #4d5ae5;
     font-weight: 500;
     line-height: 1.5;
@@ -89,8 +89,8 @@ a {
     cursor: pointer;
 }
 
-.pushit .pushit:hover,
-.pushit .pushit:focus {
+button .link:hover,
+button .link:focus {
     background-color: #404bbf;
 }
 
@@ -150,8 +150,18 @@ a {
 .footer-style {
     background-color: #2e2f42;
 }
+
 .title-footer {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+
+span {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #f4f4fd;
 }
