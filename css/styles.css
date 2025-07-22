@@ -33,7 +33,7 @@ a {
 .title-first {
     font-weight: 700;
     font-size: 56px; 
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
@@ -42,30 +42,28 @@ a {
 .title-second {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
 }
 
-
-.title-third {
+.title-nav {
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
-.title-name {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
+.title-nav .link:hover,
+.title-nav .link:focus {
+    color: #404bbf;
 }
 
 .text-address {
     font-weight: 400;
     font-size: 16px;
+    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -74,4 +72,65 @@ a {
 .text-address .link:hover,
 .text-address .link:focus {
     color: #404bbf;
+}
+
+.zone {
+    background-color: #2e2f42;
+}
+
+.pushit {
+    background-color: #4d5ae5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.pushit .link:hover,
+.pushit .link:focus {
+    background-color: #404bbf;
+}
+
+.title-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.title-paragraf {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.weare {
+    background-color: #f4f4fd;
+}
+
+.title-weare {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.list-weare {
+    background-color: #ffffff;
+}
+
+.title-third {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
