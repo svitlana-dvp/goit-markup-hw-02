@@ -12,7 +12,7 @@ a {
     text-decoration: none;
 }
 
- .accept {
+.accept {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -20,6 +20,7 @@ a {
     text-transform: uppercase;
     color: #2e2f42;
  }
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -49,7 +50,7 @@ a {
     color: #2e2f42;
 }
 
-.title-nav {
+.text-nav {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -57,8 +58,8 @@ a {
     color: #2e2f42;
 }
 
-.title-nav > a:hover, 
-.title-nav > a:focus {
+.text-nav .link:hover, 
+.text-nav .link:focus {
     color: #404bbf;
 }
 
@@ -80,7 +81,7 @@ a {
     background-color: #2e2f42;
 }
 
-button {
+.zone button {
     background-color: #4d5ae5;
     font-weight: 500;
     line-height: 1.5;
@@ -89,8 +90,8 @@ button {
     cursor: pointer;
 }
 
-button .link:hover,
-button .link:focus {
+.zone .link:hover,
+.zone .link:focus {
     background-color: #404bbf;
 }
 
