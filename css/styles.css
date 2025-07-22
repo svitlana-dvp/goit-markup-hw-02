@@ -55,6 +55,9 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.text-nav {
     color: #2e2f42;
 }
 
@@ -69,8 +72,11 @@ a {
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.text-address {
     color: #434455;
-    }
+}
 
 .text-address .link:hover,
 .text-address .link:focus {
