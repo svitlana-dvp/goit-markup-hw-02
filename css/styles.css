@@ -120,7 +120,7 @@ a {
     color: #2e2f42;
 }
 
-.title-paragraf {
+.title-paragraf-we {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -129,7 +129,7 @@ a {
     color: #2e2f42;
 }
 
-.text {
+.text-we {
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
@@ -155,7 +155,7 @@ a {
     background-color: #ffffff;
 }
 
-.title-portfolio {
+.title-paragraf {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -163,7 +163,7 @@ a {
     color: #2e2f42;
 }
 
-.text-portfolio {
+.text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
